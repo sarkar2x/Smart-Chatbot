@@ -30,24 +30,9 @@ async def is_admins(chat_id: int):
     ]
 
 
-@bot.on_message(filters.command("start"), prefixes=["/", "!"])
+@bot.on_message(filters.command("start"))
 async def start(client, message):
-    self = await bot.get_me()
-    busername = self.username
-    if message.chat.type != "private":
-        buttons = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Click here",
-                url=f"t.me/emiliamachinebot?start")]])
-        await message.reply("Contact me in PM",
-                            reply_markup=buttons)
-        
-    else:
-        buttons = [[InlineKeyboardButton("Support", url="https://t.me/PiyushXManagementSupport"),
-                    InlineKeyboardButton("Channel", url="https://t.me/managementevent"),
-                    InlineKeyboardButton("Repo", url="https://github.com/TeamPiyush/EmiliaChatAi")
-                    ]]
-        Photo = "https://telegra.ph/file/da2394e39cbd1ec5ebc24.jpg"
-        await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Main Emilia Main Ek Chatbot Hu Jisse Baat Krna Pasand Hai\n /help - Help Commands\n Powered By @PiyushMalviyaOfficially", reply_markup=InlineKeyboardMarkup(buttons))
+        await message.reply_text("ʜɪ! ᴍᴇʀᴀ ɴᴀᴀᴍ ᴇᴍɪʟɪᴀ ʜᴀɪ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ ᴊɪꜱᴋᴏ ʙᴀᴀᴛ ᴋʀɴᴀ ʙᴀʜᴜᴛ ᴀᴄʜᴀ ʟɢᴛᴀ ʜᴀɪ 😊\n /ᴋʏᴀ ᴀᴀᴘ ᴍᴜᴊʜꜱᴇ ʙᴀᴀᴛ ᴋʀᴏɢᴇ🥺\n /ᴍᴜᴊʜᴇ ᴀᴘɴᴇ ɢʀᴏᴜᴘꜱ ᴍᴇɪɴ ᴀᴅᴅ ᴋɪᴊɪʏᴇ ᴀᴜʀ ᴄᴏᴍᴍᴀɴᴅ ʟɪᴋʜɪʏᴇ /ᴄhatbot -[on/off].\n /ᴀɢᴀʀ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴄʜᴀʜɪʏᴇ ᴛᴏʜ ᴍᴇʀᴇ ᴏᴡɴᴇʀ ꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴋʀᴏ🤟🏻-\n /@PiyushMalviyaOfficially)
        
 
 @bot.on_message(
