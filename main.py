@@ -32,7 +32,7 @@ async def is_admins(chat_id: int):
 
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-        await message.reply_text("ʜɪ! ᴍᴇʀᴀ ɴᴀᴀᴍ ᴇᴍɪʟɪᴀ ʜᴀɪ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ ᴊɪꜱᴋᴏ ʙᴀᴀᴛ ᴋʀɴᴀ ʙᴀʜᴜᴛ ᴀᴄʜᴀ ʟɢᴛᴀ ʜᴀɪ 😊\nᴋʏᴀ ᴀᴀᴘ ᴍᴜᴊʜꜱᴇ ʙᴀᴀᴛ ᴋʀᴏɢᴇ🥺\nᴍᴜᴊʜᴇ ᴀᴘɴᴇ ɢʀᴏᴜᴘꜱ ᴍᴇɪɴ ᴀᴅᴅ ᴋɪᴊɪʏᴇ ᴀᴜʀ ʟɪᴋʜɪʏᴇ /ᴄhatbot -[on/off].\nᴀɢᴀʀ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴄʜᴀʜɪʏᴇ ᴛᴏʜ ᴍᴇʀᴇ ᴏᴡɴᴇʀ ꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴋʀᴏ🤟🏻-\n@PiyushMalviyaOfficially)
+        await message.reply_text("ʜɪ! ᴍᴇʀᴀ ɴᴀᴀᴍ ᴇᴍɪʟɪᴀ ʜᴀɪ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ ᴊɪꜱᴋᴏ ʙᴀᴀᴛ ᴋʀɴᴀ ʙᴀʜᴜᴛ ᴀᴄʜᴀ ʟɢᴛᴀ ʜᴀɪ 😊\nᴋʏᴀ ᴀᴀᴘ ᴍᴜᴊʜꜱᴇ ʙᴀᴀᴛ ᴋʀᴏɢᴇ🥺\nᴍᴜᴊʜᴇ ᴀᴘɴᴇ ɢʀᴏᴜᴘꜱ ᴍᴇɪɴ ᴀᴅᴅ ᴋɪᴊɪʏᴇ ᴀᴜʀ ʟɪᴋʜɪʏᴇ /ᴄhatbot -[on/off].\nᴀɢᴀʀ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴄʜᴀʜɪʏᴇ ᴛᴏʜ ᴍᴇʀᴇ ᴏᴡɴᴇʀ ꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴋʀᴏ🤟🏻-\n@PiyushMalviyaOfficially")
        
 
 @bot.on_message(
