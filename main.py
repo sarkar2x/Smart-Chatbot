@@ -42,7 +42,7 @@ STKR8 = os.environ.get("STKR8", None)
 STKR9 = os.environ.get("STKR9", None)
 
 bot = Client(
-    "EmiliaBot" ,
+    "Queen" ,
     api_id = API_ID,
     api_hash = API_HASH ,
     bot_token = BOT_TOKEN
