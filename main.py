@@ -107,12 +107,12 @@ START = f"""
 """
 PIYUSH_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="🔥 ᴏᴡɴᴇʀ 🔥", url=f"https://t.me/{OWNER_USERNAME}"),
         InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="🧸 ᴀᴅᴅ ᴋʀʟᴏ ʙᴀʙᴜ 🧸",
+            text="😘 ᴀᴅᴅ ᴋʀʟᴏ ʙᴀʙᴜ 😘",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -127,7 +127,7 @@ PIYUSH_OP = [
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🧸 ᴀᴅᴅ ᴋʀʟᴏ ʙᴀʙᴜ 🧸",
+             text="😘 ᴀᴅᴅ ᴋʀʟᴏ ʙᴀʙᴜ 😘",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
@@ -149,7 +149,7 @@ ABOUT_BTN = [
            InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/{OWNER_USERNAME}"), 
+           InlineKeyboardButton(text="🔥 ᴏᴡɴᴇʀ 🔥", url=f"https://t.me/{OWNER_USERNAME}"), 
            InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
       ],
       [ 
@@ -172,22 +172,22 @@ async def restart(client, m: Message):
     accha = await m.reply_text(
                 text = random.choice(EMOJIOS),
     )
-    await asyncio.sleep(1.3)
-    await accha.edit("__Ⴆԋυԃυɱ Ⴆԋυԃυɱ ʂƚαɾƚ ԋσ ɾԋα ԋαι..__")
-    await asyncio.sleep(0.2)
-    await accha.edit("__Ⴆԋυԃυɱ Ⴆԋυԃυɱ ʂƚαɾƚ ԋσ ɾԋα ԋαι.....__")
-    await asyncio.sleep(0.2)
-    await accha.edit("__Ⴆԋυԃυɱ Ⴆԋυԃυɱ ʂƚαɾƚ ԋσ ɾԋα ԋαι..__")
-    await asyncio.sleep(0.2)
+    await asyncio.sleep(1.5)
+    await accha.edit("__(っ◔◡◔)っ ♥ ʙʜᴜᴅᴜᴍ ʙʜᴜᴅᴜᴍ ꜱᴛᴀʀᴛ ʜᴏ ʀʜᴀ ʜᴀɪ ♥..__")
+    await asyncio.sleep(0.3)
+    await accha.edit("__(っ◔◡◔)っ ♥ ʙʜᴜᴅᴜᴍ ʙʜᴜᴅᴜᴍ ꜱᴛᴀʀᴛ ʜᴏ ʀʜᴀ ʜᴀɪ ♥.....__")
+    await asyncio.sleep(0.3)
+    await accha.edit("__(っ◔◡◔)っ ♥ ʙʜᴜᴅᴜᴍ ʙʜᴜᴅᴜᴍ ꜱᴛᴀʀᴛ ʜᴏ ʀʜᴀ ʜᴀɪ ♥..__")
+    await asyncio.sleep(0.3)
     await accha.delete()
     umm = await m.reply_sticker(
               sticker = random.choice(STICKER),
     )
-    await asyncio.sleep(2)
+    await asyncio.sleep(3)
     await umm.delete()
     await m.reply_photo(
         photo = random.choice(PHOTO),
-        caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [on/off]**\n**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**""",
+        caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**๏ ᴍᴇʀᴀ ɴᴀᴀᴍ ᴇᴍɪʟɪᴀ ʜᴀɪ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ.**\n**๏ ᴊɪꜱᴋᴏ ʙᴀᴀᴛ ᴋʀɴᴀ ʙᴀʜᴜᴛ ᴀᴄʜᴀ ʟɢᴛᴀ ʜᴀɪ.**\n**➻ ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [on/off]**\n**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**""",
         reply_markup=InlineKeyboardMarkup(PIYUSH_OP),
     )
 @bot.on_callback_query()
@@ -236,16 +236,16 @@ async def ping(client, message: Message):
         t = "__ριɳɠιɳɠ...__"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
-        await txxt.edit_text("__ριиgιиg.....__")
+        await txxt.edit_text("__ᴘɪɴɢɪɴɢ.....__")
         await asyncio.sleep(0.25)
-        await txxt.edit_text("__ριиgιиg...__")
+        await txxt.edit_text("__ᴘɪɴɢɪɴɢ...__")
         await asyncio.sleep(0.35)
         await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=random.choice(PHOTO),
-                             caption=f"ʜᴏɪ ʙᴀʙᴜ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n**мαdє ву [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)**",
+                             caption=f"ʜᴏɪ ʙᴀʙᴜ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏꜰ\n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ʙʏ [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
