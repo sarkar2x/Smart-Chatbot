@@ -97,87 +97,88 @@ STICKER = [
       STKR9,
 ]
 START = f"""
-**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
-**๏ ᴍᴇʀᴀ ɴᴀᴀᴍ ᴇᴍɪʟɪᴀ ʜᴀɪ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ.**
-**๏ ᴊɪꜱᴋᴏ ʙᴀᴀᴛ ᴋʀɴᴀ ʙᴀʜᴜᴛ ᴀᴄʜᴀ ʟɢᴛᴀ ʜᴀɪ.**
-**➻ ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**
+**๏ 𝐇𝐞𝐲, 𝐈 𝐚𝐦 [{BOT_NAME}]({START_IMG1})**
+**๏ 𝐈"𝐦 𝐐𝐮𝐞𝐞𝐧 𝐚𝐧𝐝 𝐀 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**
+**๏ 𝐈 𝐖𝐚𝐧𝐭 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐰𝐢𝐭𝐡 𝐘𝐨𝐮 𝐁𝐚𝐛𝐲 🥺..**
+**➻ 𝐀𝐧 𝐀𝐈-𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**
 **──────────────────**
-**➻ ᴜsᴀɢᴇ /chatbot [on/off]**
-**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**
+**➻ 𝐔𝐬𝐚𝐠𝐞 /chatbot [on/off]**
+**๏ 𝐓𝐨 𝐆𝐞𝐭 𝐇𝐄𝐋𝐏 𝐔𝐬𝐞 /help**
 """
 PIYUSH_OP = [
     [
-        InlineKeyboardButton(text="🔥 ᴏᴡɴᴇʀ 🔥", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🌹 𝐎𝐖𝐍𝐄𝐑 🌹", url=f"https://t.me/OpSangram"),
+        InlineKeyboardButton(text="💬 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💬", url=f"https://t.me/WorldChattingFriendsWCF"),
     ],
     [
         InlineKeyboardButton(
-            text="😘 ᴀᴅᴅ ᴋʀʟᴏ ʙᴀʙᴜ 😘",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            text="🥺 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 🥺",
+            url=f"https://t.me/QueenXchatbot?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀", callback_data="HELP"),
+        InlineKeyboardButton(text="🥰 𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🥰", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        InlineKeyboardButton(text="🤑 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 🤑", callback_data="SOURCE"),
+        InlineKeyboardButton(text="😜 𝐀𝐛𝐨𝐮𝐭 😜", callback_data="ABOUT"),
     ],
 ]
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="😘 ᴀᴅᴅ ᴋʀʟᴏ ʙᴀʙᴜ 😘",
-             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+             text="🥺 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 🥺",
+             url=f"https://t.me/QueenXchatbot?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ ✨", 
-                              url=f"https://t.me/{SUPPORT_GRP}",
+         InlineKeyboardButton(text="💬 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💬", 
+                              url=f"https://t.me/WorldChattingFriendsWCF",
          ),
      ],
 ]
-HELP_READ = f"**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**\n**──────────────────**\n**➻ ᴜsᴇ** `/chatbot on` **ᴛᴏ ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**➻ ᴜsᴇ** `/chatbot off` **ᴛᴏ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**\n**๏ ɴᴏᴛᴇ ➻ ʙᴏᴛʜ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴄʜᴀᴛ-ʙᴏᴛ ᴏɴ/ᴏғғ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**\n**──────────────────**\n**➻ ᴜsᴇ** `/ping` **ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n**➻ ᴜsᴇ** `/repo` **ғᴏʀ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.**\n**──────────────────**\n**©️ @PiyushMalviyaOfficially**"
+HELP_READ = f"**𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 [Queen](https://t.me/QueenXchatbot)**\n**──────────────────**\n**➻ 𝐔𝐬𝐞** `/chatbot on` **𝐓𝐨 𝐄𝐧𝐚𝐛𝐥𝐞 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**➻ 𝐔𝐬𝐞** `/chatbot off` **𝐓𝐨 𝐃𝐢𝐬𝐚𝐛𝐥𝐞 𝐭𝐡𝐞 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**๏ 𝐍𝐨𝐭𝐞 ➻ 𝐁𝐨𝐭𝐡 𝐭𝐡𝐞 𝐀𝐛𝐨𝐯𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 𝐂𝐡𝐚𝐭-𝐁𝐨𝐭 𝐨𝐧/ᴏғғ 𝐖𝐨𝐫𝐤 𝐢𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲!!**\n**──────────────────**\n**➻ 𝐔𝐬𝐞** `/ping` **𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐏𝐢𝐧𝐠 𝐨𝐟 𝐭𝐡𝐞 𝐁𝐨𝐭.**\n**➻ 𝐔𝐬𝐞** `/repo` **𝐅𝐨𝐫 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞.**\n**──────────────────**\n**©️ @WorldChattingFriendsWCF**"
 BACK = [
      [
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text="◀️ 𝐁𝐀𝐂𝐊 ◀️", callback_data="BACK"),
      ],
 ]
 ABOUT_BTN = [
       [
-           InlineKeyboardButton(text="🦄 sᴜᴘᴘᴏʀᴛ 🦄", url=f"https://t.me/{SUPPORT_GRP}"),  
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
+           InlineKeyboardButton(text="❤️ 𝐆𝐫𝐨𝐮𝐩 ❤️", url=f"https://t.me/WorldChattingFriendsWCF"),  
+           InlineKeyboardButton(text="😍 𝐇𝐞𝐥𝐩 😍", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="🔥 ᴏᴡɴᴇʀ 🔥", url=f"https://t.me/{OWNER_USERNAME}"), 
-           InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+           InlineKeyboardButton(text="😝 𝐅𝐚𝐭𝐡𝐞𝐫 😝", url=f"https://t.me/OpSangram"), 
+           InlineKeyboardButton(text="🤑 𝐒𝐨𝐮𝐫𝐜𝐞 🤑", callback_data="SOURCE"),
       ],
       [ 
-           InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),  
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text="🔄 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🔄", url=f"https://t.me/WCFnetwork"),  
+           InlineKeyboardButton(text="◀️ 𝐁𝐀𝐂𝐊 ◀️", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/TeamPiyush/EmiliaChatAi)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).**"
+SOURCE_READ = f"**𝐇𝐞𝐲👋, 𝐓𝐡𝐞 𝐂𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 𝐨𝐟 [Queen](https://t.me/QueenXchatbot) 𝐈𝐬 𝐆𝐢𝐯𝐞𝐧 𝐁𝐞𝐥𝐨𝐰.**\n**𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐤 𝐭𝐡𝐞 𝐑𝐞𝐩𝐨 & 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞 𝐒𝐭𝐚𝐫 ✯**\n**──────────────────**\n**𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞](https://t.me/WorldChattingFriendsWCF)**\n**──────────────────**\n**𝐈𝐟 𝐲𝐨𝐮 𝐟𝐚𝐜𝐞 𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐭𝐡𝐞𝐧 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐚𝐭 [𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩](https://t.me/WorldChattingFriendsWCF).**"
 
 ABOUT_READ = f"""
-**➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
-**➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ʀᴇᴘʟɪᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴛᴏ ᴀ ᴜsᴇʀ.**
-**➻ ʜᴇʟᴘ ʏᴏᴜ ɪɴ ᴍᴀᴋɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀᴄᴛɪᴠᴇ.**
-**➻ ᴡʀɪᴛᴛᴇɴ ɪɴ [ᴘʏᴛʜᴏɴ](https://www.python.org) ᴡɪᴛʜ [ᴍᴏɴɢᴏ-ᴅʙ](https://www.mongodb.com) ᴀs ᴀ ᴅᴀᴛᴀʙᴀsᴇ**
+**➻ [𝐐𝐮𝐞𝐞𝐧](https://t.me/QueenXchatbot) 𝐈𝐬 𝐚𝐧 𝐀𝐢 𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭-𝐁𝐨𝐭.**
+**➻ [𝐐𝐮𝐞𝐞𝐧](https://t.me/QueenXchatbot) 𝐑𝐞𝐩𝐥𝐢𝐞𝐬 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚𝐥𝐥𝐲 𝐭𝐨 𝐚 𝐔𝐬𝐞𝐫.**
+**➻ 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮 𝐢𝐧 𝐌𝐚𝐤𝐞𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐜𝐭𝐢𝐯𝐞.**
+**➻ 𝐅𝐢𝐫𝐬𝐭 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐁𝐨𝐭 𝐁𝐚𝐬𝐞𝐝 𝐨𝐧 𝐏𝐲𝐭𝐡𝐨𝐧 𝐰𝐢𝐭𝐡 𝐌𝐨𝐧𝐠𝐨-𝐃𝐛 𝐚𝐬 𝐚 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞**
+**➻ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [Sangram](https://t.me/OpSangram) 𝐚𝐧𝐝 [𝐖𝐂𝐅](https://t.me/WorldChattingFriendsWCF) **
 **──────────────────**
-**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
+**➻ 𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐆𝐢𝐯𝐞𝐧 𝐁𝐞𝐥𝐨𝐰 𝐟𝐨𝐫 𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 𝐚𝐧𝐝 𝐈𝐧𝐟𝐨 𝐀𝐛𝐨𝐮𝐭 [Queen](https://t.me/QueenXchatbot)**
 """
-@bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
+@bot.on_message(filters.command(["start", "aistart", f"start@QueenXchatbot"]))
 async def restart(client, m: Message):
     accha = await m.reply_text(
                 text = random.choice(EMOJIOS),
     )
     await asyncio.sleep(1.5)
-    await accha.edit("__(っ◔◡◔)っ ♥ ʙʜᴜᴅᴜᴍ ʙʜᴜᴅᴜᴍ ꜱᴛᴀʀᴛ ʜᴏ ʀʜᴀ ʜᴀɪ ♥..__")
+    await accha.edit("__(っ◔◡◔)っ ♥ 𝐁𝐡𝐮𝐝𝐮𝐦 𝐁𝐡𝐮𝐝𝐮𝐦 𝐒𝐭𝐚𝐫𝐭 𝐡𝐨 𝐫𝐡𝐚 𝐡𝐚𝐢 ♥..__")
     await asyncio.sleep(0.3)
-    await accha.edit("__(っ◔◡◔)っ ♥ ʙʜᴜᴅᴜᴍ ʙʜᴜᴅᴜᴍ ꜱᴛᴀʀᴛ ʜᴏ ʀʜᴀ ʜᴀɪ ♥.....__")
+    await accha.edit("__(っ◔◡◔)っ ♥ 𝐁𝐡𝐮𝐝𝐮𝐦 𝐁𝐡𝐮𝐝𝐮𝐦 𝐒𝐭𝐚𝐫𝐭 𝐡𝐨 𝐫𝐡𝐚 𝐡𝐚𝐢 ♥.....__")
     await asyncio.sleep(0.3)
-    await accha.edit("__(っ◔◡◔)っ ♥ ʙʜᴜᴅᴜᴍ ʙʜᴜᴅᴜᴍ ꜱᴛᴀʀᴛ ʜᴏ ʀʜᴀ ʜᴀɪ ♥..__")
+    await accha.edit("__(っ◔◡◔)っ ♥ 𝐁𝐡𝐮𝐝𝐮𝐦 𝐁𝐡𝐮𝐝𝐮𝐦 𝐒𝐭𝐚𝐫𝐭 𝐡𝐨 𝐫𝐡𝐚 𝐡𝐚𝐢 ♥..__")
     await asyncio.sleep(0.3)
     await accha.delete()
     umm = await m.reply_sticker(
@@ -187,7 +188,7 @@ async def restart(client, m: Message):
     await umm.delete()
     await m.reply_photo(
         photo = random.choice(PHOTO),
-        caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**๏ ᴍᴇʀᴀ ɴᴀᴀᴍ ᴇᴍɪʟɪᴀ ʜᴀɪ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ.**\n**๏ ᴊɪꜱᴋᴏ ʙᴀᴀᴛ ᴋʀɴᴀ ʙᴀʜᴜᴛ ᴀᴄʜᴀ ʟɢᴛᴀ ʜᴀɪ.**\n**➻ ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [on/off]**\n**๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help**""",
+        caption=f"""**๏ 𝐇𝐞𝐲, 𝐈 𝐚𝐦 [Queen](t.me/QueenXchatbot)**\n**๏ 𝐈"𝐦 𝐐𝐮𝐞𝐞𝐧 𝐨𝐫 𝐚 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**\n**๏ 𝐈 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐰𝐢𝐭𝐡 𝐲𝐨𝐮 𝐛𝐚𝐛𝐲 🥺.**\n**➻ 𝐀𝐧 𝐀𝐢-𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**──────────────────**\n**➻ 𝐔𝐬𝐚𝐠𝐞 /chatbot [on/off]**\n**๏ 𝐓𝐨 𝐆𝐞𝐭 𝐇𝐞𝐥𝐩 𝐮𝐬𝐞 /help**""",
         reply_markup=InlineKeyboardMarkup(PIYUSH_OP),
     )
 @bot.on_callback_query()
@@ -236,16 +237,16 @@ async def ping(client, message: Message):
         t = "__ριɳɠιɳɠ...__"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
-        await txxt.edit_text("__ᴘɪɴɢɪɴɢ.....__")
+        await txxt.edit_text("__𝐏𝐢𝐧𝐠𝐢𝐧𝐠.....__")
         await asyncio.sleep(0.25)
-        await txxt.edit_text("__ᴘɪɴɢɪɴɢ...__")
+        await txxt.edit_text("__𝐏𝐢𝐧𝐠𝐢𝐧𝐠...__")
         await asyncio.sleep(0.35)
         await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=random.choice(PHOTO),
-                             caption=f"ʜᴏɪ ʙᴀʙᴜ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏꜰ\n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ʙʏ [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)**",
+                             caption=f"𝐇𝐞𝐲 𝐁𝐚𝐛𝐲!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏꜰ\n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ʙʏ [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
