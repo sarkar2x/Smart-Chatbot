@@ -246,7 +246,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=random.choice(PHOTO),
-                             caption=f"𝐇𝐞𝐲 𝐁𝐚𝐛𝐲!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴀ ᴘɪɴɢ ᴏꜰ\n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ʙʏ [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)**",
+                             caption=f"𝐇𝐞𝐲 𝐁𝐚𝐛𝐲!!\n**[Queen](t.me/QueenXchatbot)** Is Alive 🥀 and Working fine with a ping ᴏꜰ\n➥ `{ms}` ms\n\n**𝐌𝐚𝐝𝐞 𝐛𝐲 [Sangram](https://t.me/OpSangram)**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -255,7 +255,7 @@ async def ping(client, message: Message):
     & ~filters.private)
 async def chatbotofd(client, message):
     emiliadb = MongoClient(MONGO_URL)    
-    emilia = emiliadb["EmiliaDb"]["Emilia"]     
+    emilia = emiliadb["EmiliaDb"]["Queen"]     
     if message.from_user:
         user = message.from_user.id
         chat_id = message.chat.id
@@ -278,7 +278,7 @@ async def chatbotofd(client, message):
     & ~filters.private)
 async def chatboton(client, message):
     emiliadb = MongoClient(MONGO_URL)    
-    emilia = emiliadb["EmiliaDb"]["Emilia"]     
+    emilia = emiliadb["EmiliaDb"]["Queen"]     
     if message.from_user:
         user = message.from_user.id
         chat_id = message.chat.id
@@ -300,7 +300,7 @@ async def chatboton(client, message):
     filters.command(["chatbot", f"chatbot@{BOT_USERNAME}"], prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
-    await message.reply_text(f"**ᴜsᴀɢᴇ:**\n/**chatbot [on/off]**\n**ᴄʜᴀᴛ-ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ(s) ᴡᴏʀᴋꜱ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!**")
+    await message.reply_text(f"**𝐔𝐬𝐚𝐠𝐞:**\n/**chatbot [on/off]**\n**𝐂𝐡𝐚𝐭-𝐁𝐨𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝(s) 𝐖𝐨𝐫𝐤𝐬 𝐢𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲!**")
 
 
 @bot.on_message(
@@ -318,7 +318,7 @@ async def emiliaai(client: Client, message: Message):
 
    if not message.reply_to_message:
        emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       emilia = emiliadb["EmiliaDb"]["Queen"] 
        is_emilia = emilia.find_one({"chat_id": message.chat.id})
        if not is_emilia:
            await bot.send_chat_action(message.chat.id, "typing")
@@ -338,7 +338,7 @@ async def emiliaai(client: Client, message: Message):
    
    if message.reply_to_message:  
        emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       emilia = emiliadb["EmiliaDb"]["Queen"] 
        is_emilia = emilia.find_one({"chat_id": message.chat.id})    
        getme = await bot.get_me()
        bot_id = getme.id                             
@@ -384,7 +384,7 @@ async def emiliastickerai(client: Client, message: Message):
 
    if not message.reply_to_message:
        emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       emilia = emiliadb["EmiliaDb"]["Queen"] 
        is_emilia = emilia.find_one({"chat_id": message.chat.id})
        if not is_emilia:
            await bot.send_chat_action(message.chat.id, "typing")
@@ -404,7 +404,7 @@ async def emiliastickerai(client: Client, message: Message):
    
    if message.reply_to_message:
        emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
+       emilia = emiliadb["EmiliaDb"]["Queen"] 
        is_emilia = emilia.find_one({"chat_id": message.chat.id})
        getme = await bot.get_me()
        bot_id = getme.id
