@@ -98,7 +98,7 @@ STICKER = [
 ]
 START = f"""
 **๏ 𝐇𝐞𝐲, 𝐈 𝐚𝐦 [{BOT_NAME}]({START_IMG1})**
-**๏ 𝐈"𝐦 𝐐𝐮𝐞𝐞𝐧 𝐚𝐧𝐝 𝐀 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**
+**๏ 𝐈"𝐦 ᴤᴀʀᴋᴀʀ 𝐚𝐧𝐝 𝐀 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**
 **๏ 𝐈 𝐖𝐚𝐧𝐭 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐰𝐢𝐭𝐡 𝐘𝐨𝐮 𝐁𝐚𝐛𝐲 🥺..**
 **➻ 𝐀𝐧 𝐀𝐈-𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**
 **──────────────────**
@@ -107,13 +107,13 @@ START = f"""
 """
 PIYUSH_OP = [
     [
-        InlineKeyboardButton(text="🌹 𝐎𝐖𝐍𝐄𝐑 🌹", url=f"https://t.me/OpSangram"),
-        InlineKeyboardButton(text="💬 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💬", url=f"https://t.me/WorldChattingFriendsWCF"),
+        InlineKeyboardButton(text="🌹 𝐎𝐖𝐍𝐄𝐑 🌹", url=f"https://t.me/nirbhay_2x"),
+        InlineKeyboardButton(text="💬 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💬", url=f"https://t.me/yaari_apni_apni"),
     ],
     [
         InlineKeyboardButton(
             text="🥺 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 🥺",
-            url=f"https://t.me/QueenXchatbot?startgroup=true",
+            url=f"https://t.me/Sarkarchatbot?startgroup=true",
         ),
     ],
     [
@@ -128,16 +128,16 @@ PNG_BTN = [
     [
          InlineKeyboardButton(
              text="🥺 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 🥺",
-             url=f"https://t.me/QueenXchatbot?startgroup=true",
+             url=f"https://t.me/sarkarchatbot?startgroup=true",
          ),
      ],
      [
          InlineKeyboardButton(text="💬 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 💬", 
-                              url=f"https://t.me/WorldChattingFriendsWCF",
+                              url=f"https://t.me/yaari_apni_apni",
          ),
      ],
 ]
-HELP_READ = f"**𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 [Queen](https://t.me/QueenXchatbot)**\n**──────────────────**\n**➻ 𝐔𝐬𝐞** `/chatbot on` **𝐓𝐨 𝐄𝐧𝐚𝐛𝐥𝐞 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**➻ 𝐔𝐬𝐞** `/chatbot off` **𝐓𝐨 𝐃𝐢𝐬𝐚𝐛𝐥𝐞 𝐭𝐡𝐞 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**๏ 𝐍𝐨𝐭𝐞 ➻ 𝐁𝐨𝐭𝐡 𝐭𝐡𝐞 𝐀𝐛𝐨𝐯𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 𝐂𝐡𝐚𝐭-𝐁𝐨𝐭 𝐨𝐧/ᴏғғ 𝐖𝐨𝐫𝐤 𝐢𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲!!**\n**──────────────────**\n**➻ 𝐔𝐬𝐞** `/ping` **𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐏𝐢𝐧𝐠 𝐨𝐟 𝐭𝐡𝐞 𝐁𝐨𝐭.**\n**➻ 𝐔𝐬𝐞** `/repo` **𝐅𝐨𝐫 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞.**\n**──────────────────**\n**©️ @WorldChattingFriendsWCF**"
+HELP_READ = f"**𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 [Queen](https://t.me/sarkarchatbot)**\n**──────────────────**\n**➻ 𝐔𝐬𝐞** `/chatbot on` **𝐓𝐨 𝐄𝐧𝐚𝐛𝐥𝐞 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**➻ 𝐔𝐬𝐞** `/chatbot off` **𝐓𝐨 𝐃𝐢𝐬𝐚𝐛𝐥𝐞 𝐭𝐡𝐞 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**๏ 𝐍𝐨𝐭𝐞 ➻ 𝐁𝐨𝐭𝐡 𝐭𝐡𝐞 𝐀𝐛𝐨𝐯𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐟𝐨𝐫 𝐂𝐡𝐚𝐭-𝐁𝐨𝐭 𝐨𝐧/ᴏғғ 𝐖𝐨𝐫𝐤 𝐢𝐧 𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲!!**\n**──────────────────**\n**➻ 𝐔𝐬𝐞** `/ping` **𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐏𝐢𝐧𝐠 𝐨𝐟 𝐭𝐡𝐞 𝐁𝐨𝐭.**\n**➻ 𝐔𝐬𝐞** `/repo` **𝐅𝐨𝐫 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞.**\n**──────────────────**\n**©️ @yaari_apni_apni**"
 BACK = [
      [
            InlineKeyboardButton(text="◀️ 𝐁𝐀𝐂𝐊 ◀️", callback_data="BACK"),
@@ -145,11 +145,11 @@ BACK = [
 ]
 ABOUT_BTN = [
       [
-           InlineKeyboardButton(text="❤️ 𝐆𝐫𝐨𝐮𝐩 ❤️", url=f"https://t.me/WorldChattingFriendsWCF"),  
+           InlineKeyboardButton(text="❤️ 𝐆𝐫𝐨𝐮𝐩 ❤️", url=f"https://t.me/yaari_apni_apni"),  
            InlineKeyboardButton(text="😍 𝐇𝐞𝐥𝐩 😍", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="😝 𝐅𝐚𝐭𝐡𝐞𝐫 😝", url=f"https://t.me/OpSangram"), 
+           InlineKeyboardButton(text="😝 𝐅𝐚𝐭𝐡𝐞𝐫 😝", url=f"https://t.me/nirbhay_2x"), 
            InlineKeyboardButton(text="🤑 𝐒𝐨𝐮𝐫𝐜𝐞 🤑", callback_data="SOURCE"),
       ],
       [ 
@@ -157,18 +157,18 @@ ABOUT_BTN = [
            InlineKeyboardButton(text="◀️ 𝐁𝐀𝐂𝐊 ◀️", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**𝐇𝐞𝐲👋, 𝐓𝐡𝐞 𝐂𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 𝐨𝐟 [Queen](https://t.me/QueenXchatbot) 𝐈𝐬 𝐆𝐢𝐯𝐞𝐧 𝐁𝐞𝐥𝐨𝐰.**\n**𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐤 𝐭𝐡𝐞 𝐑𝐞𝐩𝐨 & 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞 𝐒𝐭𝐚𝐫 ✯**\n**──────────────────**\n**𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞](https://t.me/WorldChattingFriendsWCF)**\n**──────────────────**\n**𝐈𝐟 𝐲𝐨𝐮 𝐟𝐚𝐜𝐞 𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐭𝐡𝐞𝐧 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐚𝐭 [𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩](https://t.me/WorldChattingFriendsWCF).**"
+SOURCE_READ = f"**𝐇𝐞𝐲👋, 𝐓𝐡𝐞 𝐂𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 𝐨𝐟 [Queen](https://t.me/sarkarchatbot) 𝐈𝐬 𝐆𝐢𝐯𝐞𝐧 𝐁𝐞𝐥𝐨𝐰.**\n**𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐨𝐫𝐤 𝐭𝐡𝐞 𝐑𝐞𝐩𝐨 & 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞 𝐒𝐭𝐚𝐫 ✯**\n**──────────────────**\n**𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 [𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞](https://t.me/yaari_api_apni)**\n**──────────────────**\n**𝐈𝐟 𝐲𝐨𝐮 𝐟𝐚𝐜𝐞 𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐭𝐡𝐞𝐧 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐚𝐭 [𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩](https://t.me/yaari_apni_apni).**"
 
 ABOUT_READ = f"""
-**➻ [𝐐𝐮𝐞𝐞𝐧](https://t.me/QueenXchatbot) 𝐈𝐬 𝐚𝐧 𝐀𝐢 𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭-𝐁𝐨𝐭.**
-**➻ [𝐐𝐮𝐞𝐞𝐧](https://t.me/QueenXchatbot) 𝐑𝐞𝐩𝐥𝐢𝐞𝐬 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚𝐥𝐥𝐲 𝐭𝐨 𝐚 𝐔𝐬𝐞𝐫.**
+**➻ [ֆǟʀӄǟʀ](https://t.me/sarkarchatbot) 𝐈𝐬 𝐚𝐧 𝐀𝐢 𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭-𝐁𝐨𝐭.**
+**➻ [ֆǟʀӄǟʀ](https://t.me/sarkarchatbot) 𝐑𝐞𝐩𝐥𝐢𝐞𝐬 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚𝐥𝐥𝐲 𝐭𝐨 𝐚 𝐔𝐬𝐞𝐫.**
 **➻ 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮 𝐢𝐧 𝐌𝐚𝐤𝐞𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐜𝐭𝐢𝐯𝐞.**
 **➻ 𝐅𝐢𝐫𝐬𝐭 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐁𝐨𝐭 𝐁𝐚𝐬𝐞𝐝 𝐨𝐧 𝐏𝐲𝐭𝐡𝐨𝐧 𝐰𝐢𝐭𝐡 𝐌𝐨𝐧𝐠𝐨-𝐃𝐛 𝐚𝐬 𝐚 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞**
-**➻ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [Sangram](https://t.me/OpSangram) 𝐚𝐧𝐝 [𝐖𝐂𝐅](https://t.me/WorldChattingFriendsWCF) **
+**➻ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [ֆǟʀӄǟʀ](https://t.me/nirbhay_2x) 𝐚𝐧𝐝 [𝐖𝐂𝐅](https://t.me/yaari_apni_apni) **
 **──────────────────**
-**➻ 𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐆𝐢𝐯𝐞𝐧 𝐁𝐞𝐥𝐨𝐰 𝐟𝐨𝐫 𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 𝐚𝐧𝐝 𝐈𝐧𝐟𝐨 𝐀𝐛𝐨𝐮𝐭 [Queen](https://t.me/QueenXchatbot)**
+**➻ 𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐆𝐢𝐯𝐞𝐧 𝐁𝐞𝐥𝐨𝐰 𝐟𝐨𝐫 𝐆𝐞𝐭𝐭𝐢𝐧𝐠 𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 𝐚𝐧𝐝 𝐈𝐧𝐟𝐨 𝐀𝐛𝐨𝐮𝐭 [sarkar](https://t.me/sarkarchatbot)**
 """
-@bot.on_message(filters.command(["start", "aistart", f"start@QueenXchatbot"]))
+@bot.on_message(filters.command(["start", "aistart", f"start@Qsarkarchatbot"]))
 async def restart(client, m: Message):
     accha = await m.reply_text(
                 text = random.choice(EMOJIOS),
@@ -188,7 +188,7 @@ async def restart(client, m: Message):
     await umm.delete()
     await m.reply_photo(
         photo = random.choice(PHOTO),
-        caption=f"""**๏ 𝐇𝐞𝐲, 𝐈 𝐚𝐦 [Queen](t.me/QueenXchatbot)**\n**๏ 𝐈"𝐦 𝐐𝐮𝐞𝐞𝐧 𝐨𝐫 𝐚 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**\n**๏ 𝐈 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐰𝐢𝐭𝐡 𝐲𝐨𝐮 𝐛𝐚𝐛𝐲 🥺.**\n**➻ 𝐀𝐧 𝐀𝐢-𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**──────────────────**\n**➻ 𝐔𝐬𝐚𝐠𝐞 /chatbot [on/off]**\n**๏ 𝐓𝐨 𝐆𝐞𝐭 𝐇𝐞𝐥𝐩 𝐮𝐬𝐞 /help**""",
+        caption=f"""**๏ 𝐇𝐞𝐲, 𝐈 𝐚𝐦 [sarkar](t.me/sarkarchatbot)**\n**๏ 𝐈"𝐦 𝐬𝐚𝐫𝐤𝐚𝐫 𝐨𝐫 𝐚 𝐂𝐡𝐚𝐭𝐛𝐨𝐭.**\n**๏ 𝐈 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐜𝐡𝐚𝐭 𝐰𝐢𝐭𝐡 𝐲𝐨𝐮 𝐛𝐚𝐛𝐲 🥺.**\n**➻ 𝐀𝐧 𝐀𝐢-𝐁𝐚𝐬𝐞𝐝 𝐂𝐡𝐚𝐭𝐁𝐨𝐭.**\n**──────────────────**\n**➻ 𝐔𝐬𝐚𝐠𝐞 /chatbot [on/off]**\n**๏ 𝐓𝐨 𝐆𝐞𝐭 𝐇𝐞𝐥𝐩 𝐮𝐬𝐞 /help**""",
         reply_markup=InlineKeyboardMarkup(PIYUSH_OP),
     )
 @bot.on_callback_query()
@@ -246,7 +246,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=random.choice(PHOTO),
-                             caption=f"𝐇𝐞𝐲 𝐁𝐚𝐛𝐲!!\n**[Queen](t.me/QueenXchatbot)** Is Alive 🥀 and Working fine with a ping ᴏꜰ\n➥ `{ms}` ms\n\n**𝐌𝐚𝐝𝐞 𝐛𝐲 [Sangram](https://t.me/OpSangram)**",
+                             caption=f"𝐇𝐞𝐲 𝐁𝐚𝐛𝐲!!\n**[𝐬𝐚𝐫𝐤𝐚𝐫](t.me/sarkarchatbot)** Is Alive 🥀 and Working fine with a ping ᴏꜰ\n➥ `{ms}` ms\n\n**𝐌𝐚𝐝𝐞 𝐛𝐲 [Sarkar](https://t.me/nirbhay_2x)**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
